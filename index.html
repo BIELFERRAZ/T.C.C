@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>ALPHA TRANSMISSION TECHNOLOGY</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css.css">
+	
+</head>
+<body>
+	
+
+    
+	<div class="container">
+
+
+		<div class="container-login">
+			<div class="wrap-login">
+
+        
+				<form class="login-form">
+
+
+                    
+					<span class="login-form-title">
+						Login dos Professores
+					</span>
+
+					<div class="wrap-input margin-top-35 margin-bottom-35">
+						<input class="input-form" type="text" name="Usuário" autocomplete="off">
+						<span class="focus-input-form" data-placeholder="Usuário"></span>
+					</div>
+
+					<div class="wrap-input margin-bottom-35">
+						<input class="input-form" type="password" name="password">
+						<span class="focus-input-form" data-placeholder="Senha"></span>
+					</div>
+
+					<div class="container-login-form-btn">
+						<button class="login-form-btn">
+							<a href="index2.html">ENTRAR</a>
+						</button>
+					</div>
+
+                
+                <div id="content" >
+                    <div id="frmEstadoCidades" class="curso" >
+                        <div class="item-select">
+                      
+                            <select id="estado">  
+								<option value="">Selecione o Curso</option>                                                                                                         
+                                <option value="Informática">Informática</option>
+                                <option value="Administração">Administração</option>
+                                <option value="Turismo">Turismo</option>
+                                <option value="Edificações">Edificações</option>
+                            </select>
+
+                        </div>
+                        <div class="item-select">
+                      
+                            <select id="cidade">
+                                <option value="">Modulo</option>
+                            </select>
+                        </div>
+
+
+                    </div>
+                    <div id="saida"></div>
+
+                </div>
+                <script src="js.js"></script>
+
+					<ul class="login-utils">
+						<li class="margin-bottom-8 margin-top-8">
+						
+
+
+							<p><a href="https://teams.microsoft.com/_#/conversations/19:78f2f109-7854-48d1-921d-ac0fef4fa79e_dd0db6c9-e79b-4047-88c2-b4b9bfd7b9d2@unq.gbl.spaces?ctx=chat">SUPORTE AOS PROFESSORES</a></p>
+							
+						</li>
+
+						
+							
+						</li>
+					</ul>
+				</form>
+			</div>
+			<img src="imagem/MicrosoftTeams-image (2) (1).png" width="350" height="300" class="margin-left-100" />
+		</div>
+	</div>
+	
+	<script>
+		let inputs = document.getElementsByClassName('input-form');
+		for (let input of inputs) {
+			input.addEventListener("blur", function() {
+				if(input.value.trim() != ""){
+					input.classList.add("has-val");
+				} else {
+					input.classList.remove("has-val");
+				}
+			});
+		}
+	</script>
+
+</body>
+</html>
