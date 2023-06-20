@@ -1,91 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css2.css">
+    <link href="css2.css" rel="stylesheet"/>
+    <title>ALPHA TRANSMISSION</title> 
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-
-    
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,200,900&display=swap"
-        rel="stylesheet">
-
-        <div class="circulo"></div>
-        <img src="imagem/MicrosoftTeams-image (2) (1).png" class="logo">
-  <!-- Chamada -->
-        <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-            <div class="bg-dark p-4">
-              <h5 class="text-body-emphasis ">CHAMADA DE VERIFICAÇÃO</h5>
-              <h6 class="text-body-emphasis "></h5>       <table class="table table-dark table-hover">
-                <thead>
-             <tr>
-                  <TH>RM</TH>
-                  <TH>NOME COMPLETO</TH>
-                  <TH>DATA</TH>
-                  <TH>ENTRADA</TH>
-                  <TH>SAÍDA</TH>
-             </tr>
-                  </thead>
-                  <tbody>
-                <tr>
-                    <td>13366</td>
-                    <td>MATHEUS GABRIEL FERRAZ</td>
-                    <td>10/06/2023</td>
-                    <td>19:10HRS</td>
-                    <td>22:10HRS</td>
-                </tr>
-                <tr>
-                    <td>12686</td>
-                    <td>MARCELLO EVANGELISTA BONADIAS</td>
-                    <td>10/06/2023</td>
-                    <td>19:00HRS</td>
-                    <td>22:50HRS</td>
-                </tr>
-              </table>
-              <tbody></h6>
-  <!-- Navbar -->
-          </div>
-          <nav class="navbar navbar-dark bg-dark">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+</head>
+<body>
+    <div class="container"> 
+        <!--navbar-->
+        <nav>
+            <div class="logo">
+                <a href="index.html"> Alpha Conection </a>
             </div>
-          </nav>
+            <ul>
+                <li> <a href="#"> Home</a></li>
+                <li> <a href="#"> Suporte</a></li>
+                <li> <a href="#"> Chamada</a></li>
+                <button>Começar!</button>
+            </ul>
+            <div class="menu-icon">
+                <img src="imagens/menuicon.png">
+            </div>
+        </nav>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+            <!--final do navbar-->
 
-  <!-- Botoes de suporte -->
-<a class="btn btn-primary" href="#" role="button">Link</a>
-<button class="btn btn-primary" type="submit">SUPORTE</button>       
+            <main>
+            <div class="text-bx">
+            <h1>Aqui está quem <b> no momento que está na chamada: </b> </h1>
+        
+            <p>
+           A equipe Alpha Connection criou esse projeto para ajudar o professor <br>
+           em sala de aula, onde o aluno só precisaria constar sua chamada através <br>
+           da presença de ponto, possuindo RFID no nosso sistema. 
+            </p>
+            </div>
 
-    <title>ALPHA TRANSMISSION TECHNOLOGY</title>
+    <div class="img-bx">
+        <img src="imagens/lista.png">
+    </div>    
 
-    </div>
-</body>
+            </main>
+        </div>
 
-<script>
-    let imagem = document.querySelector(".starbucks")
-    let circulo= document.querySelector(".circulo")
-
-    function trocaImagem(endereco){
-        imagem.src= endereco
-    }
-
-    function trocaCor(cor){
-        circulo.style.background = cor
-    }
-    
-</script>
-
-</html>
+<script src="suporte.js"></script>

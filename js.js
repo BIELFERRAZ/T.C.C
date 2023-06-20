@@ -17,9 +17,9 @@ const estados = [
  ,
  {
     uf: "Turismo", cidades: [
-      {id: 4, nome: "1T3"}
-    , {id: 5, nome: "2T3"}
-    , {id: 6, nome: "3T3"}
+      {id: 4, nome: "1R3"}
+    , {id: 5, nome: "2R3"}
+    , {id: 6, nome: "3R3"}
     ] 
    }
    
